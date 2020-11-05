@@ -32,5 +32,10 @@ public class AuthGitHubPlugin implements Plugin {
       UserIdentityFactoryImpl.class,
       ScribeGitHubApi.class);
     context.addExtensions(GitHubSettings.definitions());
+
+    for (;;) {  // Noncompliant; end condition omitted
+      // ...
+      
+    }
   }
 }
