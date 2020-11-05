@@ -35,6 +35,7 @@ public class AuthGitHubPlugin implements Plugin {
 
     for (;;) {  // Noncompliant; end condition omitted
       // ...
+      
     }
   }
 }
